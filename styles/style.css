@@ -6,25 +6,37 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
+    font-size: 12pt;
 }
 
 #TopNavBar {
-    margin: 10px;
+    margin: 20px;
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px 50px 50px;
-    grid-column-gap: 100px;
+    grid-template-columns: 5% auto 5% 5% 5% 5% ;
+   
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .main-search-box {
     margin: auto;
     width: 50%;
-    padding: 200px;
+    padding: 12em 0 54em 55em;
 }
 
 #footer {
-    margin: 10px;
+    margin: 20px;
     display: grid;
-    grid-template-columns: 100px 100px 150px 100px 100px 50px;
+    grid-template-columns: 8% 6% auto 5% 5% 5% ;
 }
 
