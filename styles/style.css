@@ -1,10 +1,30 @@
+html {
+    font-family:'Google Sans';
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 
-li {
-    display: inline;
+#TopNavBar {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    grid-column-gap: 100px;
+}
+
+.main-search-box {
+    margin: auto;
+    width: 50%;
+    padding: 200px;
+}
+
+#footer {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px 150px 100px 100px 50px;
 }
 
