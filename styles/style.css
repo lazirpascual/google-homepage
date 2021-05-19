@@ -37,7 +37,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 250px;
-    margin-bottom: 560px;
+    margin-bottom: 700px;
     width: 50%;
     text-align: center;
 }
@@ -93,6 +93,7 @@ p {
     color: #70757a;
     display: grid;
     grid-template-columns: 100px 90px auto 70px 60px 60px ;
+    
 }
 
 
