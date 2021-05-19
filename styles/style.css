@@ -44,6 +44,7 @@ a:hover {
 
 button {
     border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
     border-radius: 4px;
     font-size: 14px;
     font-family: Arial, sans-serif;
@@ -62,7 +63,8 @@ button:hover {
 }
 
 p {
-font-size: 16px;
+    font-size: small;
+    font-family:'arial';
 }
 
 .round-input-text {
