@@ -37,7 +37,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 250px;
-    margin-bottom: 650px;
+    margin-bottom: 665px;
     width: 50%;
     text-align: center;
 }
@@ -86,14 +86,14 @@ p {
 }
 
 #footer {
-    margin-left: -10px;
-    margin-right: -7px;
     padding: 20px;
-    background-color: #f0f0f0;
-    color: #70757a;
+    background-color: #eeeeee;
     display: grid;
     grid-template-columns: 100px 90px auto 70px 60px 60px ;
-    
+    position: fixed;
+    bottom: o;
+    width: 100%;
 }
+
 
 
